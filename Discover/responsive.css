@@ -1,0 +1,64 @@
+
+@media only screen and (max-width: 705px){
+
+div.container{
+
+}
+
+div.container>div.wr{
+height: 90px;
+width: 100%;
+display: block;
+background: #ff0000;
+}
+div.container>div.wr>h2{
+text-align: center;
+margin-left: 0;
+line-height: 50px;
+}
+div.container>div.wr>div.des{
+height: fit-content;
+width: 100%;
+display: block;
+position: absolute;
+top: calc(40vh + 90px);
+left: 0;
+right: 0;
+}
+div.container>div.wr>div.des>h3{
+text-align: center;
+margin: 10px 0;
+}
+div.container>div.wr>div.des>p{
+text-align: center;
+margin: 0 auto;
+}
+div.container>div.wr>div.des>button{
+margin: 10px auto;
+}
+div.container>div.wr>div.des>button:hover{
+
+}
+
+div.container>div.image{
+height: 40vh;
+width: 100%;
+display: block;
+position: absolute;
+top: 90px;
+left: 0;
+right: 0;
+}
+div.container>div.image>img{
+
+}
+
+div.social{
+
+}
+div.social>div{
+
+}
+
+
+}

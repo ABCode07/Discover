@@ -1,0 +1,134 @@
+html,body{
+margin: 0;
+padding: 0;
+}
+
+div.container{
+height: 100vh;
+width: 100%;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+div.container>div.wr{
+height: 100%;
+width: 65%;
+display: block;
+position: relative;
+top: -22px;
+left: 0;
+bottom: 0;
+background: #ff0000;
+opacity: .6;
+}
+div.container>div.wr>h2{
+text-align: left;
+color: #fff;
+font-size: 25px;
+font-family: Calibri;
+margin-left: 20px;
+transform: translateY(20px);
+}
+div.container>div.wr>div.des{
+height: 320px;
+width: 450px;
+display: block;
+position: relative;
+top: 20vh;
+left: calc((100% - 600px) / 2);
+opacity: 1;
+}
+div.container>div.wr>div.des>h3{
+text-align: left;
+color: #333;
+font-size: 25px;
+font-family: Calibri;
+}
+div.container>div.wr>div.des>p{
+height: fit-content;
+width: 90%;
+display: block;
+margin: -15px auto 0;
+color: #333;
+font-size: 16px;
+font-family: Calibri;
+}
+div.container>div.wr>div.des>button{
+height: 40px;
+width: 100px;
+display: block;
+margin-left: 20px;
+margin-top: 30px;
+color: #fff;
+background: #ff0000;
+border: 1px solid #fff;
+border-radius: 3px;
+font-size: 16px;
+font-family: Calibri;
+}
+div.container>div.wr>div.des>button:hover{
+background: #fff;
+color: #ff0000;
+cursor: pointer;
+}
+
+div.container>div.image{
+height: 270px;
+width: 400px;
+display: block;
+position: absolute;
+top: 27vh;
+left: 50%;
+}
+div.container>div.image>img{
+height: 100%;
+width: 100%;
+display: block;
+margin: 0;
+padding: 0;
+}
+
+div.social{
+height: 120px;
+width: 40px;
+display: block;
+position: absolute;
+top: calc(100vh - 150px);
+left: calc(100vw - 60px);
+}
+div.social>div{
+height: 40px;
+width: 40px;
+display: block;
+box-sizing: border-box;
+padding: 5px;
+color: #333;
+}
+
+
+@media only screen and (max-width: 950px){
+
+div.container>div.wr>div.des{
+height: 320px;
+width: 350px;
+display: block;
+position: relative;
+top: 20vh;
+left: calc((100% - 450px) / 2);
+opacity: 1;
+}
+div.container>div.image{
+height: 270px;
+width: 300px;
+display: block;
+position: absolute;
+top: 27vh;
+left: 50%;
+}
+
+}
+
